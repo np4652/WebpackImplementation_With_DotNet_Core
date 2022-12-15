@@ -1,0 +1,33 @@
+{
+  "name": "webpackimplementation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "webpack": "webpack --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "gulp": "^4.0.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "jquery": "^3.6.2",
+    "jquery-ui": "^1.13.2",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "toastr": "^2.1.4"
+  }
+}
